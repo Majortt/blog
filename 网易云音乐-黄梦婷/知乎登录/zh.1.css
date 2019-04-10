@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.SignFlowHomepage {
+    background-image: url(https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png);
+    background-repeat: no-repeat;
+    background-color: #b8e5f8;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding-right: 15px;
+}
+.SignContainer-card {
+    width: 432px;
+    height: 504px;
+    margin: 150px auto;
+    text-align: center;
+}
+.card {
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+    box-sizing: border-box;
+}
+.flowheader{
+    margin-top: 20px;
+}
+.t1{
+    width: 165px;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../知乎登录/images/微信截图_20190212120719.png) no-repeat;
+}
+.t2{
+    width: 282px;
+    height: 40px;
+    margin: 2px auto;
+    background: url(../知乎登录/images/微信截图_20190212131615.png) no-repeat;
+}
+.login{
+    width: 352px;
+    height: 265px;
+    margin: 15px auto;
+}
+.user,.password{
+    height: 48px;
+    width: 352px;
+    border-bottom: 1px solid #ddd;
+}
+.password{
+    margin-top: 15px;
+    position: relative;
+}
+.user1,.pass1{
+    height: 48px;
+    width: 352px;
+    outline: none;
+    border: 0;
+}
+.Login-options {
+    margin-top: 12px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+.o1{
+    color: #175199;
+}
+.o2{
+    color: #8590A6;
+}
+.Button {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590A6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #0084FF;
+    color: #FFFFFF;
+    background-color: #0084FF;
+    width: 100%;
+    margin-top: 30px;
+    height: 36px;
+}
+.login-footer {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    line-height: 25px;
+}
+.SignFlow-smsInputButton {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding: 4px 0;
+    color: #175199;
+}
+.login-footer span{
+    font-size: 13px;
+    color: #8590A6;
+}
+.login-footer a{
+    font-size: 13px;
+    color: #8590A6;
+}
+.switch{
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 58px;
+    border-top: 1px solid #EBEBEB;
+    font-size: 16px;
+    line-height: 58px;
+}
+.switch a{
+    font-size: 16px;
+    color: #175199;
+}

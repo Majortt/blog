@@ -1,0 +1,1206 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background: #f5f5f5;
+    overflow-x: hidden;
+}
+
+a {
+    color: #242424;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header .nav-1 {
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+
+header .nav-1 .nav-1wrap {
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+header .nav-1 .nav-1wrap a {
+    float: left;
+    color: #eee;
+}
+
+.nav-1wrap .logo {
+    float: left;
+    width: 177px;
+    height: 0px;
+    padding-top: 70px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.logo,
+.hot,
+.srchbg,
+.m-tophead,
+.cor {
+    background-image: url(../网易云音乐-黄梦婷/images/topbar.png);
+}
+
+.nav-1wrap ul li a {
+    padding: 0 19px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 13px;
+}
+
+.nav-1wrap ul li {
+    float: left;
+}
+
+.nav-1wrap ul .fm {
+    position: relative;
+}
+
+.cor {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    width: 12px;
+    height: 7px;
+    margin-left: -6px;
+    overflow: hidden;
+    background-position: -226px 0;
+}
+
+.nav-1wrap ul li a:hover {
+    background: #000;
+}
+
+.nav-1wrap ul .hott {
+    position: relative;
+}
+
+.nav-1wrap ul li .hot {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    width: 28px;
+    height: 19px;
+    background-position: -190px 0;
+}
+
+.srchbg {
+    margin-top: 19px;
+    background-position: 0 -99px;
+    background-color: #fff;
+    border-radius: 32px;
+    float: right;
+    width: 158px;
+    height: 32px;
+}
+
+.parent {
+    display: block;
+    position: relative;
+    margin: 4px 0 0 30px;
+}
+
+.parent input {
+    outline: 0;
+    border: 0;
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 16px;
+    width: 95%;
+    background: transparent;
+}
+
+header .nav-1 .nav-1wrap .m-topvd {
+    float: right;
+    font-size: 12px;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+}
+
+header .nav-1 .nav-1wrap .m-topvd:hover {
+    border-color: #fff;
+}
+
+.m-tophead {
+    float: right;
+    height: 45px;
+    margin: 19px 0 0 20px;
+    padding: 0 22px 0 0;
+    background-position: right -47px;
+    position: relative;
+}
+
+header .nav-1 .nav-1wrap .link {
+    display: block;
+    width: 28px;
+    font-size: 12px;
+    margin-top: 7px;
+    color: #787878;
+}
+
+.m-tophead .link:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+.inner {
+    position: absolute;
+    top: 38px;
+    right: -43px;
+    width: 158px;
+    background: #2b2b2b;
+    border: 1px solid #202020;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+    display: none;
+    z-index: 99999999;
+}
+
+header .nav-1 .nav-1wrap .inner ul .inner-list a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    width: 158px;
+    padding: 0;
+}
+
+.inner-con {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 10px 10px 0 15px;
+    background-image: url(../网易云音乐-黄梦婷/images/toplist.png);
+}
+
+.inner-list a .inner-con1 {
+    background-position: 0 0;
+}
+
+.inner-list a .inner-con2 {
+    background-position: -20px -20px;
+}
+
+.inner-list a .inner-con3 {
+    background-position: -20px -40px;
+}
+
+.inner-list a .inner-con4 {
+    background-position: 0 -20px;
+}
+
+.inner-list a .inner-con5 {
+    background-position: 0 -40px;
+}
+
+.m-tophead:hover .inner {
+    display: block;
+}
+
+.nav-2 {
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+
+header .nav-2 .nav-2wrap {
+    width: 1100px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+header .nav-2 .nav-2wrap .n2-list {
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+header .nav-2 .nav-2wrap .n2 {
+    display: inline-block;
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    cursor: pointer;
+}
+
+.nav {
+    padding-left: 180px;
+}
+
+header .nav-2 .nav-2wrap .n2:hover {
+    background: #9B0909;
+}
+
+.banner {
+    width: 100%;
+    height: 336px;
+    animation: banner 18s steps(1, end) infinite;
+    background-image: none;
+    position: relative;
+    z-index: 999;
+}
+
+.banner-wrap {
+    width: 984px;
+    height: 336px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-left {
+    width: 730px;
+    height: 336px;
+    animation: banner 18s steps(1, end) infinite;
+}
+
+@keyframes banner {
+    0% {
+        background: #87C4D6 url("../网易云音乐-黄梦婷/images/1") no-repeat center center;
+    }
+    12.5% {
+        background: #B3BBD5 url("../网易云音乐-黄梦婷/images/2") no-repeat center center;
+    }
+    25% {
+        background: #B8909F url("../网易云音乐-黄梦婷/images/3") no-repeat center center;
+    }
+    37.5% {
+        background: #BBBAB8 url("../网易云音乐-黄梦婷/images/4") no-repeat center center;
+    }
+    50% {
+        background: #FF4747 url("../网易云音乐-黄梦婷/images/5") no-repeat center center;
+    }
+    62.5% {
+        background: #FFF url("../网易云音乐-黄梦婷/images/6") no-repeat center center;
+    }
+    75% {
+        background: #F8DBD3 url("../网易云音乐-黄梦婷/images/7") no-repeat center center;
+    }
+    87.5% {
+        background: #D6402F url("../网易云音乐-黄梦婷/images/8") no-repeat center center;
+    }
+    100% {
+        background: #123D4D url("../网易云音乐-黄梦婷/images/9") no-repeat center center;
+    }
+}
+
+.j-l,
+.j-r,
+.shadow,
+.download .shadowr {
+    background-image: url(../网易云音乐-黄梦婷/images/banner.png);
+    cursor: pointer;
+}
+
+.j-l {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    text-indent: -9999px;
+    left: -68px;
+    background-position: 0 -360px;
+}
+
+.j-l:hover {
+    background-position: 0 -430px;
+}
+
+.j-r {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    text-indent: -9999px;
+    right: -68px;
+    background-position: 0 -508px;
+}
+
+.j-r:hover {
+    background-position: 0 -578px;
+}
+
+.banner-right {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    right: 0px;
+    width: 254px;
+    height: 336px;
+    background: #000 url(../网易云音乐-黄梦婷/images/download.png) no-repeat;
+}
+
+.download .banner-link {
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 212px 0 0 19px;
+    text-indent: -9999px;
+}
+
+.banner-link:hover {
+    background: url(../网易云音乐-黄梦婷/images/download.png) no-repeat;
+    background-position: 0px -340px;
+}
+
+.download .shadow,
+.download .shadowr {
+    display: block;
+    _display: none;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 20px;
+    height: 336px;
+    background-position: -1px 0;
+}
+
+.download .shadowr {
+    left: auto;
+    right: -20px;
+    background-position: -20px 0;
+}
+
+.download p {
+    margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+.bodyer {
+    width: 982px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 1390px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.bodyer .b-left {
+    width: 691px;
+    height: 1330px;
+    padding: 20px 20px 40px;
+    border-right: 1px solid #ccc;
+}
+
+.rmtj {
+    width: 688px;
+    height: 523px;
+}
+
+.h1_,
+.h1_bg,
+.xsj-l,
+.n-disk li,
+.xsj-r,
+.myinfo,
+.btn {
+    background: url(../网易云音乐-黄梦婷/images/index.png) no-repeat;
+}
+
+.h1_ {
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+
+.rm {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.h1_ .h1_l {
+    float: left;
+    margin: 5px 0 0 20px;
+}
+
+.h1_ .h1_list,
+.h1_lista {
+    display: inline-block;
+    width: 45px;
+    height: 12px;
+    padding-left: 4px;
+    line-height: 11px;
+    text-align: center;
+}
+
+.h1_ .h1_list {
+    border-left: 2px solid #eee;
+}
+
+.h1_ .h1_list:hover,
+.h1_lista:hover {
+    text-decoration: underline;
+}
+
+.more {
+    float: right;
+    margin-top: 5px;
+}
+
+.h1_more:hover {
+    text-decoration: underline;
+}
+
+.h1_bg {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    background-position: 0 -240px;
+    vertical-align: middle;
+}
+
+.rmgd {
+    height: 468px;
+    margin-top: 20px;
+}
+
+.rmgd .rm-card {
+    float: left;
+    display: inline-block;
+    width: 140px;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 0 30px 42px;
+    line-height: 1.4;
+}
+
+.rmgd::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.rmgd .rm-carda {
+    padding: 0 0 30px 0px;
+}
+
+.u-cover {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: block;
+}
+
+.u-cover .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.icon-headset,
+.icon-play {
+    background: url(../网易云音乐-黄梦婷/images/iconall.png) no-repeat;
+}
+
+.u-cover .icon-headset {
+    float: left;
+    width: 14px;
+    height: 11px;
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+    display: inline-block;
+}
+
+.u-cover .icon-play {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.u-cover .icon-play:hover {
+    background-position: 0 -60px;
+}
+
+.msk,
+.bottom,
+.u-cover-alb1 .msk {
+    background: url(../网易云音乐-黄梦婷/images/coverall.png) no-repeat;
+}
+
+.msk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.u-cover .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+}
+
+.dec {
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+
+.dec .u-icn {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 35px;
+    height: 15px;
+    background: url(../网易云音乐-黄梦婷/images/icon.png) no-repeat;
+    background-position: -31px -658px;
+    margin-top: -1px;
+}
+
+.tit {
+    font-size: 14px;
+    color: #000;
+}
+
+.n-disk {
+    position: relative;
+    zoom: 1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+}
+
+.n-disk .album {
+    height: 184px;
+    padding-left: 16px;
+    background: #f5f5f5;
+    border: 1px solid #fff;
+}
+
+.n-disk .roll {
+    float: left;
+    width: 645px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+
+.n-disk ul {
+    position: absolute;
+    top: 0;
+    width: 645px;
+    margin: 28px 0 0 0;
+}
+
+.n-disk li {
+    float: left;
+    display: inline;
+    width: 118px;
+    height: 150px;
+    margin-left: 11px;
+    background-position: -260px 100px;
+}
+
+.u-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.u-cover-alb1 .msk {
+    width: 118px;
+    height: 100px;
+    background-position: 0 -570px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.u-cover-alb1 .icon-play {
+    left: 72px;
+    width: 22px;
+    height: 22px;
+    background-position: 0 -85px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    display: none;
+}
+
+.u-cover-alb1:hover .icon-play {
+    display: block;
+}
+
+.n-disk .u-cover-alb1 {
+    margin-bottom: 7px;
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.n-disk .xsj-l {
+    left: 4px;
+    position: absolute;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+    background-position: -260px -75px;
+}
+
+.n-disk .xsj-r {
+    position: absolute;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+    background-position: -300px -75px;
+}
+
+.f-thide,
+.n-disk .tit {
+    color: #000;
+    cursor: pointer;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.n-disk .tit {
+    color: #666;
+}
+
+.f-thide:hover,
+.n-disk .tit:hover {
+    text-decoration: underline;
+}
+
+.n-bill {
+    width: 688px;
+    height: 527px;
+    outline: 1px solid;
+}
+
+.n-bilst {
+    height: 472px;
+    margin-top: 20px;
+    padding-left: 1px;
+}
+
+.n-bilst {
+    background: url(../网易云音乐-黄梦婷/images/index_bill.png) no-repeat;
+}
+
+.n-bilst .blk {
+    float: left;
+    width: 230px;
+}
+
+.n-bilst .top {
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+
+.n-bilst .cver {
+    float: left;
+    display: inline;
+}
+
+.u-cover-4 {
+    width: 80px;
+    height: 80px;
+}
+
+.u-cover {
+    position: relative;
+}
+
+.u-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.u-cover-4 .msk {
+    background: url(../网易云音乐-黄梦婷/images/coverall.png)no-repeat;
+    background-position: -145px -57px;
+}
+
+.u-cover .msk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.u-cover .bottom,
+.u-cover .msk,
+.n-musicsd .lst .avatar .msk {
+    no-repeat;
+}
+
+.n-bilst .tit {
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+}
+
+.n-bilst .btn1 {
+    margin-top: 10px;
+}
+
+.n-bilst .btn1 a {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    text-indent: -9999px;
+}
+
+.s-bg {
+    background: url(../网易云音乐-黄梦婷/images/index.png) no-repeat;
+}
+
+.s-bg-9 {
+    background-position: -267px -205px;
+}
+
+.s-bg-10 {
+    background-position: -300px -205px;
+}
+
+.n-bilst ol li {
+    height: 32px;
+}
+
+.n-bilst ol .no {
+    float: left;
+    position: relative;
+    width: 35px;
+    line-height: 32px;
+    height: 32px;
+    margin-left: 5px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+.n-bilst ol .no-top {
+    color: #c10d0c;
+}
+
+.bodyer .b-right {
+    width: 250px;
+    height: 920px;
+    float: right;
+}
+
+.myinfo {
+    width: 250px;
+    height: 126px;
+}
+
+.note {
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+    color: #666;
+    font-size: 12px;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #8a060b;
+    background-position: 0 -195px;
+}
+
+.btn:hover {
+    background-position: -110px -195px;
+}
+
+.n-singer {
+    margin-top: 15px;
+    width: 250px;
+    height: 455px;
+}
+
+.v3-hd {
+    position: relative;
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.f-fl {
+    font-size: 12px;
+    float: left;
+    color: #333;
+}
+
+.n-singer .v3-hd .more1 {
+    color: #666;
+    float: right;
+}
+
+.n-enter {
+    margin: 6px 0 14px 20px;
+}
+
+.n-enter li {
+    margin-top: 14px;
+}
+
+.n-enter li,
+.n-enter .itm {
+    float: left;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+}
+
+.head,
+.n-enter .head img {
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+
+.n-enter .itm {
+    float: left;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+}
+
+.itm :hover {
+    text-decoration: none;
+}
+
+.n-enter h4 {
+    margin-top: 8px;
+}
+
+.n-enter p {
+    width: 90%;
+    margin-top: 8px;
+    color: #666;
+}
+
+.ifo {
+    float: left;
+    width: 133px;
+    height: 60px;
+    padding-left: 14px;
+    border: 1px solid #e9e9e9;
+    border-left: none;
+}
+
+.ifo:hover {
+    background: #f4f4f4;
+}
+
+.n-enter::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.u-btn2,
+.u-btn2i {
+    display: block;
+    width: 210px;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+}
+
+.u-btn2 {
+    margin-left: 20px;
+    border-radius: 4px;
+    padding: 0 5px 0 0;
+}
+
+.u-btn2 {
+    color: #333;
+    background: url(../网易云音乐-黄梦婷/images/button2.png);
+    background-position: right -100px;
+}
+
+.u-btn2i {
+    color: #333;
+    font-weight: bold;
+    background: url(../网易云音乐-黄梦婷/images/button2.png);
+    background-position: 0 -59px;
+}
+
+.v-hd3 {
+    position: relative;
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 12px;
+}
+
+.n-dj {
+    margin-top: 30px;
+}
+
+.n-hotdj {
+    margin: 20px 0 0 20px;
+}
+
+.n-hotdj li {
+    float: left;
+    width: 210px;
+    height: 50px;
+}
+
+.n-hotdj .cver {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.n-hotdj .info .u-icn {
+    margin-top: -1px;
+}
+
+.u-icn-1 {
+    width: 11px;
+    height: 13px;
+    background-position: 0 1px;
+    font-size: 100%;
+    font-style: normal;
+}
+
+.u-icn,
+.u-icn2,
+.u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../网易云音乐-黄梦婷/images/icon.png) no-repeat;
+}
+
+.s-fc3 {
+    color: #666;
+}
+
+.s-fc3:hover,
+a.s-fc3:hover {
+    text-decoration: none;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.n-bilst ol .nm {
+    float: left;
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.n-bilst ol li * {
+    vertical-align: middle;
+}
+
+.n-bilst .more1 {
+    clear: both;
+    height: 32px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px;
+}
+
+footer {
+    position: relative;
+    height: 148px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+
+.m-back {
+    background: url(../网易云音乐-黄梦婷/images/sprite.png) no-repeat;
+}
+
+.m-back {
+    display: block;
+    position: fixed;
+    text-indent: -9999px;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 160px;
+    width: 49px;
+    height: 44px;
+    background-position: -265px -47px;
+    z-index: 1;
+}
+
+.m-back:hover {
+    background-position: -325px -47px;
+}
+
+.footer-wrap {
+    width: 980px;
+    height: 149px;
+    margin: 0 auto;
+}
+
+.copy {
+    float: left;
+    width: 520px;
+    padding-top: 15px;
+    line-height: 24px;
+    font-size: 11px;
+}
+
+.link .item {
+    color: #999;
+}
+
+.link .item:hover {
+    text-decoration: underline;
+}
+
+.line {
+    margin: 0 8px 0 10px;
+    color: #c2c2c2;
+}
+
+.sep,
+.sep.span {
+    margin-right: 14px;
+}
+
+.right,
+.contact {
+    color: #666;
+}
+
+.enter {
+    width: 330px;
+    margin-top: 21px;
+    float: right;
+}
+
+.unit {
+    float: left;
+    width: 60px;
+    height: 70px;
+    margin-left: 30px;
+    text-align: center;
+    color: #666;
+}
+
+.unita {
+    margin-left: 0px;
+}
+
+.logonew {
+    display: block;
+    float: none;
+    width: 50px;
+    height: 45px;
+    margin: 0 auto;
+    background: url(../网易云音乐-黄梦婷/images/foot_enter_new.png) no-repeat;
+    background-size: 110px 450px;
+    background-position: -63px -101px;
+}
+
+.logo-musician {
+    background-position: 0 0;
+}
+
+.logo-reward {
+    background-position: -60px -50px;
+}
+
+.logo-cash {
+    background-position: 0 -101px;
+}
+
+.tt {
+    display: inline-block;
+    margin: 5px 5px 0;
+    width: 52px;
+    height: 14px;
+    background: url(../网易云音乐-黄梦婷/images/foot_enter_tt.png) no-repeat;
+    background-size: 180px 100px;
+}
+
+.tt-auth {
+    background-position: -1px -91px;
+}
+
+.tt-reward {
+    background-position: 0 -54px;
+}
+
+.tt-cash {
+    background-position: -1px -72px;
+}
